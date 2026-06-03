@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition - Tax invoice Print'
+@AbapCatalog.extensibility.extensible: true
+@ObjectModel.leadingEntity.name: 'ZSD_TAX_INVOICE_PRINT'
+define service ZSD_TAX_INVOICE_PRINT_SDEF {
+  expose ZSD_TAX_INVOICE_PRINT as TaxInvPrint;
+  expose ZSD_TAX_INVOICE_F4    as TaxInvF4;
+}

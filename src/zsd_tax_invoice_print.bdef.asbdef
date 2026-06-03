@@ -1,0 +1,22 @@
+unmanaged implementation in class zbp_sd_tax_invoice_print unique;
+strict ( 2 );
+
+define behavior for ZSD_TAX_INVOICE_PRINT //alias <alias_name>
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly ) BillDoc;
+  mapping for zsdt_taxinv_prnt
+  {
+  BillDoc = bill_doc;
+  FileContents = file_contents;
+   FormName    = form_name;
+   STOQty     = sto_qty;
+   STOUnit    = sto_unit;
+  }
+}

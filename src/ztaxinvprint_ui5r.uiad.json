@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Tax Invoice Print"
+  },
+  "ui5AppDetails": {
+    "appId": "taxinvprint"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_E243398232499AD0D9A9EFA8D5555FBD0C4FA50B_TM",
+    "semanticObject": "ZSOTAXINVPRINT",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_E243398232499AD0D9A9EFA8D5555FBD0C4FA50B_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Tax Invoice Print"
+      }
+    }
+  ]
+}
